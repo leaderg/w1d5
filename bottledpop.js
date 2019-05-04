@@ -3,7 +3,7 @@ var bottles = 0;
 var empties = 0;
 var caps = 0;
 
-initialInvestment = 40;
+initialInvestment = Number(process.argv[2]);
 
 function moneyToBottles(num) {
   bottles += Math.floor(num / 2);
