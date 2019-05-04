@@ -46,3 +46,4 @@ while (bottles > 0) {
 console.log("Your Soda Stats:\n");
 console.log(`Total Bottles Drank: \n${totalDrinks}\n`);
 console.log(`Total Earned \nfrom Empties:\n${bottlesFromEmpties}\n\nTotal Earned \nfrom Caps:\n${bottlesFromCaps}`);
+console.log(`------\nYou should buy more bottles...\n\nYou still have ${caps} caps and ${empties} empties you could trade in!`)
